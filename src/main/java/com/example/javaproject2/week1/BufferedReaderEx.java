@@ -9,8 +9,17 @@ public class BufferedReaderEx {
         InputStreamReader is = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(is);
 
+        System.out.println(1 + 1);
+
         System.out.println("line1 = " + br.readLine());
         System.out.println("line2 = " + br.readLine());
 
+    }
+
+    public void plusTwoNumbers() throws IOException {
+        InputStreamReader is = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(is);
+
+        System.out.println(br.readLine() + br.readLine());
     }
 }
