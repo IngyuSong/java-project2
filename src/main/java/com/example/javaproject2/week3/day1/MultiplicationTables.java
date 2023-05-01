@@ -7,7 +7,7 @@ public class MultiplicationTables {
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.println("종료하려면 0을 입력하세요. ");
-            System.out.println("단 입력: ");
+            System.out.print("단 입력: ");
             int dan = sc.nextInt();
             if (dan == 0) return;
             multiplication(dan);
