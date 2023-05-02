@@ -1,6 +1,6 @@
 package com.example.javaproject2.programmers;
 
-public class SequenceAndRangeQuery {
+public class SequenceAndRangeQuery3 {
     public int[] solution(int[] arr, int[][] queries) {
         for (int i = 0; i < queries.length; i++) {
             int temp = arr[queries[i][0]];
